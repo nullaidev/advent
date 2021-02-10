@@ -16,10 +16,10 @@ class Data
      * Get data from an array or object using dot notation with wilds.
      *
      * @param string|array $needle Value to check in dot notation, or an array of string values.
-     * @param array|object|\ArrayAccess $haystack Data to search.
+     * @param array|object $haystack Data to search.
      * @param mixed $default Fallback if value is null.
      */
-    public static function lookup(array|string $needle, array|object|\ArrayAccess $haystack, mixed $default = null) : mixed
+    public static function lookup(array|string $needle, array|object $haystack, mixed $default = null) : mixed
     {
         if( empty($needle) ) {
             return $haystack ?? $default;
