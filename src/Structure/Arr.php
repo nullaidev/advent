@@ -8,7 +8,7 @@ use RecursiveArrayIterator;
 /**
  * Arr
  *
- * A common sense API for Arrays.
+ * A common sense API for arrays.
  */
 class Arr
 {

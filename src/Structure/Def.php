@@ -4,7 +4,7 @@ namespace Ezra\Essence\Structure;
 /**
  * Def
  *
- * A common sense API for mixed data types.
+ * A common sense API for constants.
  */
 class Def
 {
